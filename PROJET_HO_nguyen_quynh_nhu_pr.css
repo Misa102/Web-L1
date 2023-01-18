@@ -1,0 +1,123 @@
+html {
+    background-color: #fafae9;                 /*Couleur de l'arrière-plan de la page web*/
+}
+body{
+    font-size: 17px;
+}
+/*partie de titre */
+#boxtitle{                                     /*choisir le id boxtitle*/
+    background-color: #730404;                 /*couleur de l'arrière-plan de la boîte de titre*/
+    height: 100px;                             /*hauteur de la boîte de titre*/
+}
+#boxtitle h1{                                  /*choisir élément h1 dans id boxtile*/
+    color: #faee04;                            /*couleur de titre*/
+    text-shadow: #ff9900 2px 3px 2px;          /*ajouter des ombres au texte*/
+}
+#boxtitle h4{                                  /*choisir h4 dans id boxtitle*/
+    color: #F3F781;                            /*couleur de petit titre*/
+}
+/*Menu*/
+#menu{                                         /*sélectionner de l'id menu*/
+    background-color: #d99c73;                 /*la couleur d’arrière-plan*/
+}
+#menu ul{                                       /*séléctionner élément ul de l'id menu*/
+    background-color:  #d99c73;                 /*la couleur d’arrière-plan*/
+}
+#menu li a, .dropbtn{
+    color:saddlebrown;                          /*la couleur de texte*/
+}
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;                  /*Changer la couleur d'arrière-plan du bouton déroulant lorsque le contenu du menu déroulant est affiché*/
+}
+#menu .drop-content{                            /*contenu de la liste déroulant réelle (il est caché par défaut)*/
+    background-color:  #f3ebd3;                 /*couleur de l'arrière-plan de la boîte de titre*/
+    box-shadow:  8px 16px rgb(217, 197, 174);   /*Une ombre de boîte est décrite par des décalages X et Y par rapport à l'élément, le flou et le rayon de propagation et la couleur*/
+}
+/*boite de sommaire*/
+.boxs {                                         /*choisir classe boxs de la boîte de sommaire*/
+    width: 450px;                               /*largeur de la box sommaire*/
+    height: 150px;                              /*hauteur de la box sommaire*/
+    font-size: 20px;                            /*la taille su texte dans la boîte*/
+}
+
+/* style le partie à gauche */
+.first{                                        /*sélectionner les éléments de la classe first*/
+    background:#d99c73;                        /*Couleur de l'arrière-plan des éléments de la classe first*/
+}
+/*tableau*/
+table th{                                      /*définir une cellule d'un tabeau comme une cellule d'en-tête pour un groupe de cellule.*/
+    background-color: #ecc29d;                 /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+}
+
+table tr:nth-child(even){
+    background-color: #faf5d3;                 /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+}
+
+table tr:hover{
+    background-color: #eadcd5;                 /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+}
+/* style des images */
+.photo-horizontal img{                         /*sélectionner élément img de la classe photo-horizontal*/
+    width: 40vw;                               /*largeur de la photo*/
+    left: 10vw;                                /*photo est à une distance vers la gauche*/
+    height: 23vw;
+}
+/*partie de texte à côté d'image*/
+.phai{                                         /*sélectionner la classe phai*/
+    padding-top: 1em;                          /*la hauteur de la boîte de remplissage en haut de l'élément.*/
+    border-left: 10px;                         /*définir la bordure à gauche des éléments dans cette classe*/
+    border-right: 0;                           /*définir la bordure à droite des éléments dans cette classe*/
+    padding-left: 10em;                        /*l'espace nécessaire à la gauche d'un élément*/
+}
+/*  Première lettre des grande parties */
+
+.first::first-letter{                           /*choisir la première lettre de class first*/
+    color:#730404;                              /* écrit en rouge Bordeaux */
+}
+#langue p{                                      /*choisir élément p de l'élément id langue*/
+    font-size: 17px;                            /*la taille en pixel*/
+}
+#caracteristique > h3{                          /*cibler tous les éléments h3 enfants d’un élément d’identifiant caracteristique*/
+    font-size: 20px;                            /*la taille est 20px*/
+    color: #955109;                             /*la couleur du texte*/
+}
+#caracteristique > h4{                          /*cibler tous les éléments h4 enfants d’un élément d’identifiant caracteristique*/
+    font-size: 15px;                            /*la taille est 15px*/
+}
+#economie > h3{                                 /*cibler tous les éléments h3 enfants d’un élément d’identifiant economie*/
+    color: darkred;                             /*la couleur du texte*/
+}
+#culture > h5{                                  /*cibler tous les éléments h5 enfants d’un élément d’identifiant culture*/
+    font-size: 10px;                            /*la taille en pixel*/
+}
+
+#religion {                                     /*sélectionner les éléments d'identifiant religion*/
+    color: darkred;                             /*la couleur du texte*/
+}
+#fete {                                         /*sélectionner les éléments d'identifiant fete*/
+    color: darkred;                             /*la couleur du texte*/
+}
+#gastronomie{                                   /*sélectionner les éléments d'identifiant gastronomie*/
+    color: darkred;                             /*la couleur du texte*/
+}
+/*bordue inférieure*/
+#footer h3 {                                    /*choisir élément h3 de l'élément id footer*/
+    font-size: 20pt;                            /*la taille du texte en pixel*/
+    text-decoration: dimgrey;                   /*décorer le texte:colorer en couleur dimgrey*/
+}
+
+#footer h4 {                                    /*choisir élément h4 de l'élément id footer*/
+    font-size: 18pt;                            /*la taille du texte en pixel*/
+    text-decoration: dimgrey;                   /*décorer le texte:colorer en couleur dimgrey*/
+}
+
+
+/* choisir l'élément q de l'élément li de l'élément d'iddentifiant 'menu_2' */
+#menu_2 li a{
+    color: #9f3a38;                         /* couleur de la texte */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' */
+#menu_2 li a:hover{
+    background-color: #9f3a38;              /* couleur de l'arrière plan */
+}

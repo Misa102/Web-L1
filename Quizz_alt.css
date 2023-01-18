@@ -1,0 +1,74 @@
+/* choisir l'élément html */
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    /* définir la police */
+    background-color: #faf7f7;                                      /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    background-color: silver;                 /* couleur de l'arrière plan */
+}
+
+/* choisir h1 */
+h1 {
+    color: #474646;                           /* couleur de la texte */
+}
+
+/* choisir l'élément li de l'élément ol de l'élément a class 'boxtitle */
+.boxsommaire ol li {
+    color: #868383;                              /* ecrit en rouge */
+    font-size: 35px;                             /* taille de la texte */
+}
+
+/*Menu*/
+
+/* choisir l'élément d'identifiant 'menu' */
+#menu {
+    background-color: #adafb6;                /* couleur de l'arrière plan */
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    background-color: #adafb6;              /* couleur de l'arrière plan */
+    color: black;                           /* couleur du texte */
+    font-size: large;                       /* taille de la texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color: black;;                        /*couleur de la texte */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: white;               /* couleur de l'arrière plan */
+}
+
+/* choisir class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content{
+    background-color: white;              /* couleur de l'arrière plan */
+}
+
+/* pseudo-class :hover du l'élément a class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content a:hover{
+    background-color: white;;            /* couleur de l'arrière plan */
+}
+
+h2{
+    background-color:#868382;
+    font-size: 35px;
+}
+
+
+.forme-quizz{
+    background-color: #c6c4c1;
+}
+
+.question{
+    font-size: 35px;
+}
+
+button {
+    font-size: 25px;
+    background-color: #84817f;
+}

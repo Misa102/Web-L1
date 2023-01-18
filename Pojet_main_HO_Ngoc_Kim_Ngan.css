@@ -1,0 +1,127 @@
+/* style pour tous les enfants dans balise html */
+
+html{
+    font-family: 'Akaya Telivigala', cursive;    /* définir la police */
+    background-color: #fafae9;                   /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class boxtitle */
+
+.boxtitle{
+    background-color: #730404;           /* couleur de la boître */
+}
+
+/* choisir h1 */
+
+h1{
+    color: #ffff00;                       /* ecrit en jaune */
+}
+
+/*Menu*/
+
+/* choisir l'lélément d'idantifiant 'menu' */
+#menu {
+    background-color: #d99c73;           /* couleur de l'arrière plan */
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    color: #d99c73;                        /* couleur de la texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color:saddlebrown;                     /* couleur de la texte */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;             /* couleur de l'arrière plan */
+}
+
+/* choisir class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content {
+    background-color: #f3ebd3;              /* couleur de l'arrière plan */
+}
+
+/* pseudo-class :hover du l'élément a class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content a:hover{
+    background-color: #bebcba;             /* couleur de l'arrière plan */
+}
+
+
+
+/* choisir toutes les li dans class boxsommaire */
+.boxsommaire ol li {
+    color: red;                              /* ecrit en rouge */
+    font-size: 30px;                         /* taille de la texte */
+}
+
+
+
+/*  Première lettre des grande parties */
+
+.grand-partir::first-letter{
+    color:red;                            /* écrit en rouge */
+}
+
+/*  choisir tous les éléments h4 enfants d’un élément d’identifiant caraterisque, culture, region et l'élément h5 de d'identifiant ecinomie */
+#caracteristique > h4,
+#culture > h4, #region > h4, #economie > h5{
+    color: #953B09;                       /* écrit en #953B09 */
+}
+
+
+/* choisir l'élément h5 de l'élément d'identifiant 'culture' */
+#culture > h5{
+    font-style: italic;                     /* écrit en italique */
+    font-weight: bold;                      /* écrit en gras */
+    text-decoration: underline;             /* souligner la texte */
+}
+
+/* choisir les élément th */
+.ligne_tableau {
+    color: firebrick;                       /* couleur de la texte */
+}
+
+/* choisir des élément a class colum */
+.colum {
+    color: firebrick;                       /* couleur de la texte */
+    font-weight: bold;                      /* écrit en gras */
+    text-align: center;                     /* aligner au centre */
+}
+
+/* choisir les éléments p */
+p{
+    font-size: 23px;                        /* taille de la texte */
+}
+
+/* choisir les élements h4 des éléments d'identifiant economie */
+#economie>h4{
+    font-size: 23px;                        /* taille de la texte */
+    color: #457045;                         /* couleur de la texte */
+}
+
+/* choisir les élément p et li */
+p,li{
+    font-size: 21px;                        /*taille de la texte */
+}
+
+/* choisir l'élément td et th */
+td,th{
+    font-size: 23px;                        /* taille de la texte */
+}
+
+/* choisir l'élément q de l'élément li de l'élément d'iddentifiant 'menu_2' */
+#menu_2 li a{
+    color: #9f3a38;                         /* couleur de la texte */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' */
+#menu_2 li a:hover{
+    background-color: #9f3a38;              /* couleur de l'arrière plan */
+}
+
+
+
+

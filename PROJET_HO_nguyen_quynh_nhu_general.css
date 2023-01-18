@@ -1,0 +1,241 @@
+html{
+    font-family: 'Akaya Telivigala', cursive;      /*la police de la page de web*/
+}
+
+/*partie du corps de la page de web*/
+body {
+    margin: 10px;                                  /*la marge exterieur de le corps*/
+    padding: 0;                                    /*la marge intérieure de le corps*/
+    font-family: Arial sans-serif;                 /*la police de la partie corps */
+}
+
+/*partie de titre */
+#boxtitle{                                         /*la boîte de titre*/
+    text-align: center;                            /*définir l’alignement d’un texte:le texte sera centré*/
+    padding-top: 5px;                              /*la marge intérieure au dessus*/
+    padding-bottom: 5px;
+}
+#boxtitle h1{                                      /*sélectionner élément h1 de l'id boxtitle*/
+    text-align: center;                            /*définir l’alignement d’un texte:le texte sera centré*/
+    text-decoration-style:double;                  /*définir le style appliqué sur ce ligne:dessine une double-ligne*/
+}
+#boxtitle h4{                                      /*sélectionner élément h4 de l'id boxtitle*/
+    text-align: center;                            /*définir l’alignement d’un texte:le texte sera centré*/
+    font-style: oblique;                           /*fixe l’inclinaison d’un texte:penche le texte*/
+}
+
+/*logo*/
+#drapeau{                                          /*séléctionner d'id drapeau*/
+    transition: all 0.5s ease-in-out;              /*définir la transition entre deux étars d'un élément:s'appliquer à toutes les propriétés */
+    transition-duration: inherit;                  /*la duréé de la transition*/
+    height:50px;                                   /*la hauteur du drapeau*/
+}
+
+/*Menu*/
+#menu{                                             /*séléctionner de l'id menu*/
+    display: flex;                                 /*les élément deviennent des éléments flexibles*/
+    justify-content: space-between;                /*espacer les éléments uniformément sur l'axe principal*/
+}
+#menu ul {                                         /*séléctionner élément ul de l'id menu*/
+    list-style-type: none;                         /*définir le un disque, un caractère ou un style de compteur personnalisé d'un élément de liste: non*/
+    margin: 0;                                     /*la marge extérieure des élément de la liste non ordonnée du menu*/
+    padding: 0;                                    /*la marge intérieure des élément de la liste non ordonnée du menu*/
+    overflow: hidden;                              /*definir le comportement souhaité pour le débordemnt des élément: le contenu est découppé si nécessaire pour s'adapter à la zone remplisage.*/
+}
+#menu li{                                          /*selectionner les éléments li de la liste non ordonnée de l'id menu*/
+    float: left;                                   /*déplacer la position de la barre de menus vers l'extrême gauche*/
+}
+#menu li a, .dropbtn{
+    display: inline-block;                         /*l'élément génère une boîte d'élément de bloc qui sera coulée avec le contenu environnant comme s'il s'agissait d'une seule boîte en ligne*/
+    text-align: center;                            /*l’alignement de texte est au centre*/
+    padding: 14px 16px;                            /*la marge intérieure appliquent le premier écart en haut et en bas 14px et le second sur les côtés droit et gauche 16 px*/
+    font-weight: bold;                             /*mettre le texte en gras*/
+}
+#menu li.dropdown{
+    display: inline-block;                         /*l'élément génère une boîte d'élément de bloc qui sera coulée avec le contenu environnant comme s'il s'agissait d'une seule boîte en ligne*/
+}
+#menu .drop-content{                               /*contenu de la liste déroulant réelle (il est caché par défaut)*/
+    display: none;                                 /*désactiver l'affichage d'un élémnent dfin qu'il n'ait aucun effet sur la mise en page.Tous les éléments descendants ont également leur affichage désactivé*/
+    position: absolute;                            /*définir la façon dont un élément est positionné dans un document:l'élément est retiré du flux normal et aucun espace n'est créé pour l'élément sur la page,positionné par rapport à son ancêtre le plus proche qui est positionné s'il y en a un ou par rapport au bloc englobant initial sinon*/
+    min-width: 160px;                              /*la largeur minimum de contenu est réglé sur 160px*/
+    z-index: 1;                                    /*définir le niveau de la boîte dans la pile par rapport au contexte d'empilement courant*/
+}
+#menu .drop-content a {                            /*liens dans dropdown*/
+    color: black;                                  /*la couleur de texte:noir*/
+    padding: 12px 16px;                            /*la marge intérieure appliquent le premier écart en haut et en bas 12px et le second sur les côtés droit et gauche 16 px*/
+    text-decoration: none;                         /*définir la décoration d’un texte: pas de décoration, comportement par défaut*/
+    display: block;                                /*l'élément génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal.*/
+    text-align: left;                              /*l’alignement de texte:le texte sera aligné sur la gauche ; valeur par défaut*/
+}
+#menu .drop-content a:hover{                       /*changer la couleur des liens déroulants au survol*/
+    background-color: #bebcba;                     /*la couleur d’arrière-plan*/
+}
+#menu .dropdown:hover  .drop-content{              /*afficher le menu déroulant au survol*/
+    display: block;                                /*l'élément génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal.*/
+}
+
+/*boite de sommaire*/
+.boxs {                                            /*séméctionner la classe boxs*/
+    background-color: white;                       /*la couleur d’arrière-plan de la boîte sommaire*/
+    margin-top: 30px;                              /*l’espace entre les bordures d’un élément et les boites voisines au dessus*/
+    margin-left: 30%;                              /*l’espace entre les bordures d’un élément et les boites voisines à gauche*/
+    border-width: initial;                         /*l’épaisseur de la bordure: initial*/
+    border-style: dashed;                          /*le style de la bordure: tiret*/
+    border-color: black;                           /*la couleur de la bordure:black*/
+    border-image: initial;                         /*dessiner une image autour d'un élément donné. Il remplace la bordure régulière de l'élément:inotial*/
+}
+.internal-page-anchor{                             /*créer des liens d'ancrage*/
+    cursor: pointer;                               /*le curseur est un pointeur qui indique un lien. Typiquement une image d'une main pointée.*/
+    text-decoration: none;                         /*définir la décoration d’un texte: pas de décoration, comportement par défaut*/
+    color: black;                                  /*la couleur de texte:noire*/
+}
+
+/* style le partie à gauche */
+.first{                                            /*sélectionner les éléments de la classe first(h2)*/
+    color: black;                                  /*la couleur de texte:noire*/
+    font-size: 30px;                               /*la taille de texte*/
+    font-weight: bold;                             /*mettre le texte en gras*/
+    font-style: oblique;                           /*fixer l’inclinaison d’un texte:penche le texte*/
+    text-align: justify;                           /*l’alignement de texte: le texte sera justifié*/
+    text-decoration: none;                         /*définir la décoration d’un texte: pas de décoration, comportement par défaut*/
+    position: relative;                            /*définir la façon dont un élément est positionné dans un document:l'élément est positionné dans le flux normal du document puis décalé, par rapport à lui-même*/
+    top: 25px;                                     /*la distance entre le bord haut de la marge de l'élément et le bord haut du bloc englobant*/
+}
+#langue p{                                         /*sélectionner que l'élément p contenu d'id langue*/
+    line-height: 2;                                /*la distance entre les lignes de texte*/
+    text-indent: 1.5em;                            /*la longueur qui doit être laissée avant le début de la première ligne d'un élément contenant du texte*/
+    padding-top: 10px;                             /*la hauteur de la boîte de remplissage en haut de l'élément.*/
+}
+#caracteristique > h3{                             /*cibler tous les éléments h3 enfants d’un élément d’identifiant caracteristique*/
+    text-indent: 0.5em;                            /*la distance entre les lignes de texte*/
+}
+#caracteristique > h4{                             /*cibler tous les éléments h4 enfants d’un élément d’identifiant caracteristique*/
+    text-indent: 1em;                              /*la distance entre les lignes de texte*/
+    text-decoration: underline;                    /*définir la décoration d’un texte: le texte est souligné*/
+}
+#climat ul li{                                     /*sélectionner les éléments li dans la liste non ordonée de l'id climat*/
+    list-style-type:square;                        /*définit le marqueur des éléments de liste:un carré plein.*/
+}
+#economie > h3{                                    /*cibler tous les éléments h3 enfants d’un élément d’identifiant economie*/
+    font-style: oblique;                           /*fixer l’inclinaison d’un texte:penche le texte*/
+}
+#culture > h5{                                     /*cibler tous les éléments h5 enfants d’un élément d’identifiant culture*/
+    font-style: italic;                            /*fixer l’inclinaison d’un texte:change le texte en italique*/
+    font-weight: bold;                             /*mettre le texte en gras*/
+    text-decoration-style: dotted;                 /*définir la décoration d’un texte:dessine une ligne pointillée*/
+}
+#culture ul li{                                    /*sélectionner les éléments li dans la liste non ordonée de l'id culture*/
+    list-style-type: circle;                       /*définir le marqueur des éléments de liste:un cercle creux*/
+}
+/*tableau*/
+table {                                            /*cibler toutes les tableaux*/
+    margin-top: 20px;                              /*l’espace entre les bordures d’un élément et les boites voisines au dessus*/
+    border-collapse: collapse;                     /*les bordures du tableau doivent être réduites en une seule bordure*/
+}
+table, td, th{                                     /*séléctionner les éléments <table>, <th> et <td>*/
+    border: 1px solid black;                       /*spécifier une bordure noire de tableau*/
+    padding: 8px;                                  /*la marge intérieure*/
+}
+table th{                                          /*sélectionner que les élément th contenus dans le tableau*/
+    text-align: center;                            /*l’alignement de texte: le texte sera centré*/
+    color: black;                                  /*la couleur de texte:noire*/
+}
+
+/*Créer des colonnes égales, flottantes les unes à côté des autres*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+/*Effacer le flotteur après les colonnes*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Disposition flexible: colonnes empilées au lieu de côte à côte lorsque l'écran mesure moins de 600 px de large*/
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+/* style des images */
+img{
+    image-rendering:pixelated;                     /*lors de la mise à l'échelle de l'image, l'algorithme du plus proche voisin doit être utilisé, de sorte que l'image semble être composée de grands pixels*/
+    display:block;                                 /*l'élément génère une boîte de bloc ce qui ajoute des passages à la ligne avant et après l'élément dans le flux normal.*/
+    border: solid #333;                            /*la bordure qui affiche une ligne droite continue, la couleur #333*/
+    margin-left: auto;                             /*l’espace entre les bordures d’un élément et les boites voisines à gauche:automatique*/
+    margin-right: auto;                            /*l’espace entre les bordures d’un élément et les boites voisines à droite:automatique*/
+}
+.photo-vertical img{                               /*sélectionner élément img de la classe photo-vertical*/
+    width: 30vw;                                   /*largeur de la photo*/
+    left: 25vw;                                    /*photo est à une distance vers la gauche*/
+    height: 50vw;                                  /*hauteur de l'mage*/
+}
+/*partie de texte à côté d'image*/
+.phai {
+    text-align: left;                              /*l’alignement de texte:le texte sera aligné sur la gauche ; valeur par défaut*/
+    position: absolute;
+    width: 40vw;
+}
+/*bordure inférieur*/
+#footer {                                          /*séléctionner l'id footer*/
+    width: 100%;                                   /*largeur de la bordure*/
+    background: #F1F1F1;                           /*la couleur de l'arrière-plan*/
+    border-top: 1px solid #D4D4D4;                 /* la bordure haute d'un élément.*/
+    height: 150px; /*la hauteur de bordure*/
+    font-size: 25px;
+    color: maroon;
+}
+#footer h3 {                                       /*sélectionner élément h3 de l'id footer*/
+    font-weight: normal;                           /*fixer l’épaisseur de la police:la valeur par défaut*/
+    text-align: right;                             /*l’alignement de texte:le texte sera aligné sur la droite*/
+    font-style: italic;                            /*fixer l’inclinaison d’un texte:penche le texte*/
+    margin-top: 1px;                               /*l’espace entre les bordures d’un élément et les boites voisines au dessus*/
+}
+
+#footer h4 {                                       /*sélectionner élément h4 de l'id footer*/
+    font-weight: normal;                           /*fixer l’épaisseur de la police:la valeur par défaut*/
+    text-align: right;                             /*l’alignement de texte:le texte sera aligné sur la droite*/
+    font-style: normal;                            /*fixer l’inclinaison d’un texte:valeur par défaut*/
+    margin-bottom: 0;                              /*la zone de marge au bas*/
+}
+
+/* de la même manière */
+#menu_2 ul{
+    list-style-type: none;                         /* effacer des style de la liste */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;                              /* le contenu renversé est coupé et ce contenu est masqué */
+    background-color: silver;
+    border: 1px solid #333;
+}
+
+/* le contenu renversé est coupé et ce contenu est masqué */
+#menu_2 li{
+    display: inline;                                /* utiliser le flex box */
+    float: right;
+    border-left: 2px solid #333;
+    margin-left: 0;
+}
+
+/* choisir le dernière enfant de l'élément li de l'élément d'identifiant 'menu' */
+#menu_2 li:last-child{
+    border-left: none;
+}
+
+/* le contenu renversé est coupé et ce contenu est masqué */
+#menu_2 li a{
+    font-size: 50px;
+    font-weight:bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    background-color: #bebab8;
+}
+
+/* pseudo-class :hover du l'élément li des l'élément d'identifiant 'menu' */
+#menu_2 li a:hover{
+    color: white;
+}

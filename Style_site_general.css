@@ -1,0 +1,44 @@
+/* choisir l'élément a class 'box' */
+.box {
+    display: flex;                              /* utiliser le flex box */
+    align-items: center;                        /* aligner flex item au centre */
+    justify-content: center;                    /* flex item au centre */
+    font-weight: bold;                          /* la police est en gras */
+}
+
+/* choisir l'lélement a class 'boxtitle' */
+.boxtitle{
+    width: 100%;                         /*  largeur */
+    height: 10vh;                        /* taille */
+    border:solid #333 ;                  /* la police et couleur de la boître */
+    margin-top: 25px;                    /* marge au dessus */
+    font-size: 70px;                     /* taille des caractères */
+}
+
+/* choisir h1 */
+h1{
+    text-align: center;                   /* aligner le texte au centre */
+    font-weight: bold;                    /* écrit en gras */
+}
+
+/* choisir l'élément ul*/
+ul{
+    list-style: none;                /* effacer le style de la liste */
+}
+
+/* choisir l'élément a class 'grandpartir' */
+.grandpartir{
+    margin-left: 50px;               /* ajouter une marge extérieur à gauche en 50px */
+}
+
+
+/* choisir l'élément a class 'list_content' */
+.list_content{
+    margin-left: 70px;              /* ajouter une marge extérieur à gauche en 70px */
+}
+
+/* choisir l'élément a de l'élément li de l'élément a class 'fichier' */
+.fichier > li >a {
+    margin-left: 80px;          /* ajouter une marge extérieur à gauche en 80px */
+    text-decoration: none;      /* effacer le souligner */
+}

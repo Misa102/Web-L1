@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE VIETNAM [
+        <!ENTITY % j PUBLIC ” ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 ) ”>
+
+        <!ENTITY % m PUBLIC ” ( 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 ) ”>
+
+<!ELEMENT VIETNAM ( Langue, CaractéristiquesGéographiques+, Population, Economie, Culture)>
+<!ATTLIST VIETNAM Position (EU|Amériques|Asie|Autralie|PoleSud|Afrique) "EU" #IMPLIED>
+
+<!ELEMENT Langue EMPTY>
+<!ATTLIST Officiel CDATA #REQUIRED>
+
+<!ELEMENT CaractéristiquesGéographiques ( SuperficieTotal, Climat,Régions)?>
+<!ELEMENT SuperficieTotal (Frontières, Maritime)>
+<!ELEMENT Frontières (#PCDATA)>
+<!ELEMENT Maritime (#PCDATA)>
+<!ATTLIST SuperficieTotal S CDATA #REQUIRED>
+<!ELEMENT Climat ( Description+)>
+<!ELEMENT Description (#PCDATA)>
+<!ATTLIST Climat Type CDATA #IMPLIED>
+<!ELEMENT Régions ( Nord, Centre, Sud)>
+<!ELEMENT Nord (#PCDATA)>
+<!ELEMENT Centre (#PCDATA)>
+<!ELEMENT Sud (#PCDATA)>
+
+<!ELEMENT Population ( #PCDATA)>
+
+<!ELEMENT Economie (Tourisme, ExportationDeRiz)>
+<!ELEMENT Tourisme (#PCDATA)>
+<!ELEMENT ExportationDeRiz (#PCDATA)>
+<!ATTLIST Economie GDP CDATA #REQUIRED>
+
+<!ELEMENT Culture ( Réligions+, Fêtes, Gastronomies)>
+<!ELEMENT Réligions EMPTY>
+<!ATTLIST Réligions Réligion (Bouddhisme|Catholicisme|NonRéligion) "NonRéligion" #REQUIRED>
+<!ELEMENT Fêtes (fête+)>
+<!ELEMENT fête (#PCDATA)>
+<!ATTLIST fête
+jour %j; #REQUIRED
+mois %m; #REQUIRED
+calendrier CDATA #IMPLIED>
+<!ELEMENT Gastronomies (#PCDATA)>
+]>
+
+

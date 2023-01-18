@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" media="screen" title="" href="Quizz_general.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" title="plan du site" href="Quizz_pr.css"/>
+    <link rel="stylesheet alternate" type="text/css" media="screen" title="alt site" href="Quizz_alt.css"/>
+    <script type="application/javascript" src="JS_index.js"></script>
+    <title>Quizz 1</title>
+</head>
+<body>
+<div>
+    <h1 class="box boxtitle">QUIZZ 1</h1>
+</div>
+<div id="menu">
+    <div><img id="drapeau" src="la-drapeau.png" alt="drapeau"/></div>
+    <ul>
+        <li><a href="site_map_HO_HO.xhtml">SITE MAP</a></li>
+        <li class="dropdown">
+            <a href="https://www.cityzeum.com/ar/le-vietnam-pratique-tout-savoir">A PROPOS</a>
+            <div class="drop-content">
+                <a href="Quizz_1_Ngan.xhtml">Quizz 1</a>
+                <a href="Quizz_HO_Nguyen_Quynh_Nhu.xhtml">Quizz 2</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="https://decouvrirensemble.com/destinations/voyage-au-vietnam">IDEES A VOYAGE</a>
+            <div class="drop-content">
+                <a href="https://www.tonkinvoyage.com/vietnam-guide-de-voyage/quel-budget-pour-un-voyage-au-vietnam.html">Quel budget voyage</a>
+                <a href="https://www.tourdumondiste.com/que-faire-au-vietnam">Que voir,Que faire?</a>
+                <a href="https://www.evaneos.fr/vietnam/voyage/quand-partir/#:~:text=La%20meilleure%20p%C3%A9riode%20pour%20visiter,au%20long%20de%20l'ann%C3%A9e.">Quand partir?</a>
+                <a href="https://www.partir.com/Viet-nam/billet-avion-vol/">Vols</a>
+            </div>
+        </li>
+        <li><a href="https://traitdefraction.com/vietnam/18-choses-inutiles-a-savoir-sur-le-vietnam/">CONSEILS</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" id="contact" >CONTACT</a>
+            <div class="drop-content">
+                <a href="https://www.facebook.com/quynhnhu.honguyen.1">Facebook</a>
+                <a id="mail" href="mailto:ngoc.kim.ngan.ho@etu.univ-poitiers.fr" onclick="showInformation()">Gmail</a>
+                <a href="avis.xhtml">Votre avis 1</a>
+                <a href="Formulaire_HO_Nguyen_Quynh_Nhu.xhtml">Votre avis 2</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h2>Que comprenez-vous au Vietnam?</h2>
+
+<div class="forme-quizz">
+    <form action="http://voca2.univ-poitiers/.fr/~subrenat/cours_web/traitement.php">
+        <div class="question">
+            <label class="label">Q1. Quelle est la forme du pays Vietnam? </label>
+            <ul>
+                <li><input type="radio"/><label> Une cercle</label></li>
+                <li><input type="radio"/><label> Une hexagone</label></li>
+                <li><input type="radio"/><label> la forme de S</label></li>
+                <li><input type="radio"/><label> le forme de X</label></li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <label class="label">Q2. Quelle ville est la capitale du Vietnam?</label>
+            <ul>
+                <li><input type="radio"/><label> Ho Chi Minh</label></li>
+                <li><input type="radio"/><label> Ha Noi</label></li>
+                <li><input type="radio"/><label> Hué</label></li>
+                <li><input type="radio"/><label> Je ne sais pas</label></li>
+            </ul>
+        </div>
+        <div class="question">
+            <label class="label">Q3. Combien de régions compte le Vietnam?</label>
+            <ul>
+                <li><input type="radio"/><label> Il y a 3 régions</label></li>
+                <li><input type="radio"/><label> Il y a 5 régions</label></li>
+                <li><input type="radio"/><label> Il y a 2 régions</label></li>
+                <li><input type="radio"/><label> Il n'y a pas des régions</label></li>
+            </ul>
+        </div>
+        <div class="question">
+            <label class="label">Q4. Quel est le nom du festival spécial du nouvel an au Vietnam? A quelle date?</label>
+            <ul>
+                <li><input type="radio"/><label> Fête de la mi-automme, 01 Janvier</label></li>
+                <li><input type="radio"/><label> Fête de l'indépendance du Vietnam, 01 Septembre</label></li>
+                <li><input type="radio"/><label> L'anniversaire du Bouddha, 01 Janvier (selon calendrier lunaire) </label></li>
+                <li><input type="radio"/><label> TET, 01 Janvier (selon calendrier lunaire)</label></li>
+            </ul>
+        </div>
+        <div class="question">
+            <label class="label">Q5. Quelle est votre impression du Vietnam?</label>
+            <textarea class="input_avis" cols="30" rows="10" placeholder="Ecrivez votre réponse ici!"></textarea>
+        </div>
+
+        <div>
+            <button>Terminé</button>
+        </div>
+    </form>
+
+</div>
+
+
+</body>
+</html>

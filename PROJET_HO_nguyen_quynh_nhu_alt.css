@@ -1,0 +1,126 @@
+html {
+    background-color: white                   /*Couleur de l'arrière-plan de la page web*/
+}
+body{
+    font-size: 25px;                          /*la taille du texte de la patie body*/
+}
+
+/*partie de titre */
+#boxtitle{                                    /*choisir le id boxtitle*/
+    background-color: white;                  /*Couleur de l'arrière-plan de la boîte de titre*/
+    height: 160px;                            /*hateur de la boîte de titre*/
+}
+#boxtitle h1{                                 /*choisir élément h1 dans id boxtile*/
+    color: black; /*couleur de titre*/
+    font-size: 45px;
+}
+#boxtitle h4{                                 /*choisir h4 dans id boxtitle*/
+    color: black;                             /*Couleur de petit titre*/
+    font-size: 28px;                          /*la taille du texte*/
+}
+
+/*Menu*/
+#menu{                                        /*sélectionner de l'id menu*/
+    background-color: lightgray;              /*la couleur d’arrière-plan*/
+}
+#menu ul{                                     /*séléctionner élément ul de l'id menu*/
+    background-color:lightgray;               /*la couleur d’arrière-plan*/
+}
+#menu li a, .dropbtn{
+    color: black;                             /*la couleur de texte*/
+    font-size:27px ;                          /*la taille du texte*/
+}
+#menu li a, .dropbtn{
+    color: black;                             /*la couleur de texte*/
+    font-size: 27px;                          /*la taille du texte*/
+}
+#menu a:hover, .dropdown:hover .dropbtn{      /*Changer la couleur d'arrière-plan du bouton déroulant lorsque le contenu du menu déroulant est affiché*/
+    background-color: snow;
+}
+#menu .drop-content{                          /*Contenu déroulant (masqué par défaut)*/
+    background-color: whitesmoke;             /*la couleur d’arrière-plan*/
+}
+
+/*boite de sommaire*/
+.boxs {                                       /*choisir classe boxs de la boîte de sommaire*/
+    font-size: 33px;                          /*la taille su texte dans la boîte*/
+    width: 550px;                             /*largeur de la box sommaire*/
+    height: 250px;                            /*hauteur de la box sommaire*/
+}
+
+/* style le partie à gauche */
+.first{                                       /*sélectionner les éléments de la classe first*/
+    background: #aeadab;                      /*Couleur de l'arrière-plan des éléments de la classe first*/
+}
+
+/*tableau*/
+table th{                                     /*définir une cellule d'un tabeau comme une cellule d'en-tête pour un groupe de cellule.*/
+    background-color: #e9e8e7;                /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+    font-size:30px;                           /*la taille du texte*/
+}
+table tr:nth-child(even){
+    background-color: #d7d7d4;                /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+}
+table tr:hover{
+    background-color: #acacab;                /*Couleur de l'arrière-plan de la cellule d'en-tête d tabeau*/
+}
+
+/* style des images */
+.photo-horizontal img{                        /*sélectionner élément img de la classe photo-horizontal*/
+    width:42vw;                               /*largeur de la photo*/
+    left: 25vw;                               /*photo est à une distance vers la gauche*/
+    height:450px;                             /*hauteur de l'mage*/
+    margin-top: 50px;
+}
+
+/*partie de texte à côté d'image*/
+.phai{                                        /*sélectionner la classe phai*/
+    float: right;
+    border-left: 5px;                         /*définir la bordure à gauche des éléments dans cette classe*/
+    padding-left: 6em;
+    padding-top: 1em;                         /*la marge intérieure au dessus*/
+}
+
+/*  Première lettre des grande parties */
+
+.first::first-letter{                         /*choisir la première lettre de class first*/
+    color: #484747;                           /* écrit en dargray*/
+    font-size: 30px;                          /*la taille du texte*/
+}
+#langue p{                                    /*choisir élément p de l'élément id langue*/
+    font-size: 25px;                          /*la taille en pixel*/
+}
+#caracteristique > h3{                        /*cibler tous les éléments h3 enfants d’un élément d’identifiant caracteristique*/
+    color: black;                             /*la couleur du texte*/
+    font-size: 30px;
+}
+#caracteristique > h4{                        /*cibler tous les éléments h4 enfants d’un élément d’identifiant caracteristique*/
+    font-size: 27px;                          /*la taille est 22px*/
+}
+#economie > h3{                               /*cibler tous les éléments h3 enfants d’un élément d’identifiant economie*/
+    color: #212020;                           /*la couleur du texte*/
+    font-size:30px;                           /*la taille du texte*/
+}
+#culture > h5{                                /*cibler tous les éléments h5 enfants d’un élément d’identifiant culture*/
+    font-size: 30px;                          /*la taille en pixel*/
+}
+#religion {                                   /*sélectionner les éléments d'identifiant religion*/
+    color: black;                             /*la couleur du texte*/
+    font-size: 30px;                          /*la taille du texte*/
+}
+#fete {                                       /*sélectionner les éléments d'identifiant fête*/
+    color: black;                             /*la couleur du texte*/
+    font-size: 30px;                          /*la taille du texte*/
+}
+#gastronomie{                                 /*sélectionner les éléments d'identifiant gastronomie*/
+    color: black;                             /*la couleur du texte*/
+    font-size: 30px;                          /*la taille du texte*/
+}
+#footer h3 {                                  /*choisir élément h3 de l'élément id footer*/
+    font-size: 30pt;                          /*la taille du texte en pixel*/
+    text-decoration: whitesmoke;              /*décorer le texte:colorer en couleur whitesmoke*/
+}
+#footer h4 {                                  /*choisir élément h4 de l'élément id footer*/
+    font-size: 27pt;                          /*la taille du texte en pixel*/
+    text-decoration: whitesmoke;              /*décorer le texte:colorer en couleur whitesmoke*/
+}

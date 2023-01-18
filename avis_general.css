@@ -1,0 +1,142 @@
+/* choisir la boître */
+.box {
+    display: flex;                              /* utiliser le flex box */
+    align-items: center;                        /* ecrit au centre de la boître */
+    justify-content: center;                    /* des flex item au centre */
+    font-weight: bold;                          /* la police est en gras */
+}
+
+/* choisir l'élément a class boxtitle */
+.boxtitle{
+    width: 100%;                         /*  largeur */
+    height: 10vh;                        /* taille */
+    border:solid #333 ;                  /* le bordue en solide et en couleur #333 */
+    margin-top: 25px;                    /* marge au dessus */
+    font-size: 70px;                     /* taille des caractères */
+}
+
+/*Menu*/
+
+/* choisir l'élément d'identifiant 'drapeau' */
+
+#drapeau{
+    border: none;                     /* effacer la bordue */
+    width: 80px;                      /* la largeur */
+    height: auto;                     /* le longeur */
+    margin: auto 16px;                /*  la taille de la marge extérieure */
+}
+
+/* choisir l'élément d'identifiant 'menu' */
+#menu{
+    display: flex;                    /* utiliser le flexbox */
+    justify-content: space-between;   /* l'espace entre des flex items */
+    float: top;
+}
+
+/* choisir l'élément ul des l'élément d'identifiant 'menu' */
+#menu ul{
+    list-style-type: none;             /* effacer des style de la liste */
+    overflow: hidden;                  /* le contenu renversé est coupé et ce contenu est masqué */
+    height: 50px;                      /* la longeur */
+}
+
+/* choisir l'élément li des l'élément d'identifiant 'menu' */
+#menu li{
+    font-size: 20px;                   /* taille du texte est 20px */
+    float: left;                       /* déplacer vers à la gauche */
+    font-weight: bold;                 /* écrit en gras */
+    padding-left: 0;                   /* effacer le marge intérieure par défaut */
+    margin: auto 20px;                 /* la taille de la marge extérieure */
+}
+
+/* choisir les élément du li de l'élément d'idedntifiant 'menu' et l'élément a class 'dropbtn' */
+
+#menu li a, .dropbtn{
+    display: inline-block;               /* de la même manière */
+    text-align: center;                  /* position du texte */
+    padding: 14px 16px;                  /* taille de la marge intérieure */
+    text-decoration: none;               /* effecer des souligner des l'éléments de la liste */
+}
+
+/* choisir class 'dropdown' de l'élément li de l'élément d'identifiant 'menu' */
+#menu li.dropdown{
+    display: inline-block;               /* même ligne */
+}
+
+/* choisir class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content{
+    display: none;
+    position: absolute;                /* position de l'élément */
+    min-width: 160px;                  /* la largeur minimum */
+    z-index: 1;                        /* définir d'un élément positionné */
+}
+
+/* choisir l'élément a de l'élément a class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content a {
+    color: black;                      /*         ***         */
+    padding: 12px 16px;                /*         ***         */
+    text-decoration: none;             /* de la même manière  */
+    display: block;                    /*         ***         */
+    text-align: left;                  /*         ***         */
+}
+
+/* pseudo-class :hover du l'élément a class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .dropdown:hover  .drop-content{
+    display: block;                    /* flex box */
+}
+
+h2{
+    font-style: italic;
+    text-align: center;
+}
+
+
+.forme-avis{
+    width: 70%;
+    margin: auto;
+    border-radius: 5px ;
+    padding: 20px;
+}
+
+.forme-avis-question ul {
+    list-style: none;
+}
+
+.forme-avis-groupe{
+    padding: 12px 0;
+    display: flex;
+}
+
+.forme-avis-question{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.forme-avis-question_item {
+    padding: 12px;
+    margin-top: 16px;
+    flex-basis: 40%;
+}
+
+
+.input_avis{
+    border: 1px solid #333;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: match-parent;
+    resize: vertical;
+}
+
+input[type=submit]{
+    width: 130px;
+    height: auto;
+    color: black;
+    font-weight: bold;
+    padding: 10px 18px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+}

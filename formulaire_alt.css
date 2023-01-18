@@ -1,0 +1,83 @@
+html {
+    background-color: white                   /*couleur de l'arrière-plan de la page web est blanche*/
+}
+
+/*partie de titre */
+
+#boxtitle{                                    /*sélectionner le id boxtitle*/
+    background-color: black;                  /*couleur de l'arrière-plan de la boîte de titre ets noire*/
+    height: 160px;                            /*hauteur de la boîte de titre en pixels*/
+}
+
+#boxtitle h1{                                 /*sélectionner l'élément h1 de l'id boxtile*/
+    color: white;                             /*couleur de titre est écrite en blache*/
+    font-size: 45px;                          /*la taille du texte en pixels*/
+}
+
+/*Menu*/
+
+#menu{                                        /*sélectionner de l'id menu*/
+    background-color: lightgray;              /*la couleur d’arrière-plan*/
+}
+
+#menu ul{                                     /*séléctionner élément ul de l'id menu*/
+    background-color:lightgray;               /*la couleur d’arrière-plan est lightgray*/
+}
+
+#menu li a, .dropbtn{
+    color: black;                             /*la couleur de texte est écrit en noire*/
+    font-size:27px ;                          /*la taille du texte en pixels*/
+}
+
+#menu li a, .dropbtn{
+    color: black;                             /*la couleur de texte est écrit en noie*/
+    font-size: 27px;                          /*la taille du texte en pixels*/
+}
+
+#menu a:hover, .dropdown:hover .dropbtn{      /*Changer la couleur d'arrière-plan du bouton déroulant lorsque le contenu du menu déroulant est affiché*/
+    background-color: snow;                   /*couleur d’arrière-plan est blache de neige*/
+}
+
+#menu .drop-content{                          /*Contenu déroulant (masqué par défaut)*/
+    background-color: whitesmoke;             /*la couleur d’arrière-plan est whitesmoke*/
+}
+
+
+/*partie de corps de la page*/
+body{                                         /*sélectionner la partie body*/
+    font-size: 25px;                          /*la taille du texte en pixels*/
+}
+
+/*formilaire*/
+
+.container{                                   /*sélectionner la classe container*/
+    background-color: #c8c7c7;                /*couleur de l'arrière-plan de le formulaire*/
+}
+
+.header {                                     /*sélectionner la classe header*/
+    background-color: #fdfdfc;                /*couleur de l'arrière-plan de l'entête de formulaire*/
+    border-bottom: 1px solid #f0f0f0;         /*la bordure a une épaisseur de 1 px, le contour est une ligne droite et est coloré #9f9d9d*/
+}
+
+.form-control input{                          /*sélectionner l'élément input de la classe form-control*/
+    font-size: 25px;                          /*la taille du texte en pixel*/
+}
+
+.form-controle textarea{                         /*sélectionner l'élément input de la classe form-controle*/
+    font-size: 25px;                          /*la taille du texte en pixel*/
+}
+
+.form button{                                 /*sélectionner des éléments button de la classe form*/
+    background-color: black;                  /*couleur de l'arrière-plan du bouton de formulaire*/
+    border: 2px solid #4f4e4e;                /*la bordure a une épaisseur de 2 px, le contour est une ligne droite et est coloré #4f4e4e*/
+    color: white;                             /*couleur du texte est écrit en blanc*/
+    font-size: 25px;                          /*la taille du texte en pixels*/
+}
+
+/*bordure inférieure*/
+
+#footer h3 {                                  /*choisir élément h3 de l'élément id footer*/
+    font-size: 30pt;                          /*la taille du texte en pixel*/
+    background-color: black;                  /*couleur de l'arrière-plan du bordure inférieure est noir*/
+    color: white;                             /*couleur du texte est écrit en blanc*/
+}

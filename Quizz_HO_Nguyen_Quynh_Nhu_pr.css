@@ -1,0 +1,73 @@
+
+html {
+    background-color: #fafae9;                 /*Couleur de l'arrière-plan de la page web*/
+}
+
+/*partie de titre */
+
+#boxtitle{                                     /*choisir le id boxtitle*/
+    background-color: #730404;                 /*couleur de l'arrière-plan de la boîte de titre*/
+    height: 100px;                             /*hauteur de la boîte de titre*/
+}
+
+#boxtitle h1{                                  /*choisir élément h1 dans id boxtile*/
+    color: #faee04;                            /*couleur de titre est écrite en jaune*/
+    text-shadow: #ff9900 2px 3px 2px;          /*ajouter des ombres au texte*/
+}
+
+/*Menu*/
+
+#menu{                                         /*sélectionner de l'id menu*/
+    background-color: #d99c73;                 /*la couleur d’arrière-plan*/
+}
+
+#menu ul{                                       /*séléctionner élément ul de l'id menu*/
+    background-color:  #d99c73;                 /*la couleur d’arrière-plan*/
+}
+
+#menu li a, .dropbtn{                           /*sélectionner*/
+    color:saddlebrown;                          /*la couleur de texte*/
+}
+
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;                  /*Changer la couleur d'arrière-plan du bouton déroulant lorsque le contenu du menu déroulant est affiché*/
+}
+
+#menu .drop-content{                            /*contenu de la liste déroulant réelle (il est caché par défaut)*/
+    background-color:  #f3ebd3;                 /*couleur de l'arrière-plan de la boîte de titre*/
+    box-shadow:  8px 16px rgb(217, 197, 174);   /*Une ombre de boîte est décrite par des décalages X et Y par rapport à l'élément, le flou et le rayon de propagation et la couleur*/
+}
+
+/*formulaire*/
+
+.container{                                      /*sélectionner la classe container*/
+    background-color: #f3dec3;                   /*couleur de l'arrière-plan du formulaire*/
+}
+
+.header {                                        /*sélectionner la classe header*/
+    background-color: #d99c73;                   /*couleur de l'arrière-plan de l'entête de formulaire*/
+    border: 2px solid #d99364;                   /*la bordure a une épaisseur de 2 px, le contour est une ligne droite et est coloré #d99364*/
+    color: white;                                /*la couleur du texte est écrite blanche*/
+}
+
+.form-controle textarea{                            /*sélectionner l'élément input de la classe form-controle*/
+    font-size: 15px;                             /*la taille du texte en pixel*/
+}
+
+
+.form button{                                    /*sélectionner des éléments button de la classe form*/
+    background-color: #d99c73;                   /*couleur de l'arrière-plan du bouton de formulaire*/
+    border: 2px solid #d99364;                   /*la bordure a une épaisseur de 2 px, le contour est une ligne droite et est coloré #d99364*/
+    color: #fff;                                 /*la couleur du texte est #fff*/
+}
+
+/*bordue inférieure*/
+
+#footer {                                        /*séléctionner l'id footer*/
+    background:  #d99c73;                        /*couleur de l'arrière-plan du bordue inférieure*/
+}
+
+#footer h3 {                                     /*choisir élément h3 de l'élément id footer*/
+    font-size: 20pt;                             /*la taille du texte en pixel*/
+    color: saddlebrown;                          /*la couleur du texte est brun*/
+}

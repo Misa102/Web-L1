@@ -1,0 +1,96 @@
+/* choisir html */
+html{
+    background-image: url("http://vietbf.com/forum/attachment.php?attachmentid=750757&stc=1&d=1427051413");
+    /* l'arrière plan est cette image */
+    background-size: cover;                /* l'arrière plan est couvert l'écran */
+    background-repeat: no-repeat;          /* l'arrière plan n'est pas repété */
+    width: 100%;                           /* largeur */
+    height: auto;                          /* longeur */
+    font-family: 'Akaya Telivigala', cursive;   /* police de la texte */
+}
+
+/* choisir l'lélement a class 'boxtitle' */
+.boxtitle{
+    background-color: #730404;             /* couleur de l'arrière plan */
+}
+
+/* choisir h1 */
+h1 {
+    text-shadow: #db442a 2px 3px 2px;               /* l'ombre de la texte */
+    color: yellow;                                  /* écrit en jaune */
+    text-decoration-style: wavy;                    /* texte ondulée */
+}
+
+/*Menu*/
+
+/* choisir l'lélément d'idantifiant 'menu' */
+#menu {
+    background-color: #d99c73;
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    color: #d99c73;                        /* couleur du texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color:saddlebrown;
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content {
+    background-color: #f3ebd3;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content a:hover{
+    background-color: #bebcba;
+}
+
+/* choisir l'élément a class 'fi' */
+.fi {
+    color: #2f4f4f;
+    font-size: 30px;
+}
+
+/* choisir des l'éléments table, th, td */
+table, th, td{
+    border:4px solid #10100f;                /* bordue en 4px solide er en couleur #10100f */
+}
+
+/* de la même manière au dessus */
+th{
+    color: #9d0303;
+    font-size: 40px;
+}
+
+/* choisir l'élément d class 'numéro */
+.numero{
+    color: #2f4f4f;
+}
+
+/* de la même manière au dessus */
+.infor{
+    font-size: 25px;
+}
+
+/* pseudo_class :hover du l'element tr */
+tr:hover{
+    background-color: #e5af78;
+}
+
+/* de même manière */
+#menu_2 li a{
+    color: #9f3a38;
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' */
+#menu_2 li a:hover{
+    background-color: #9f3a38;
+}

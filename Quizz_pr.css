@@ -1,0 +1,76 @@
+/* style pour tous les enfants dans balise html */
+
+html{
+    font-family: 'Akaya Telivigala', cursive;    /* définir la police */
+    background-color: #fafae9;                   /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class boxtitle */
+
+.boxtitle{
+    background-color: #730404;           /* couleur de la boître */
+}
+
+/* choisir h1 */
+
+h1{
+    color: #ffff00;                       /* ecrit en jaune */
+}
+
+/*Menu*/
+
+/* choisir l'lélément d'idantifiant 'menu' */
+#menu {
+    background-color: #d99c73;           /* couleur de l'arrière plan */
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    color: #d99c73;                        /* couleur de la texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color:saddlebrown;                     /* couleur de la texte */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;             /* couleur de l'arrière plan */
+}
+
+/* choisir class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content {
+    background-color: #f3ebd3;              /* couleur de l'arrière plan */
+    box-shadow:  8px 16px #9f3a38;     /* l'ombres de la boître */
+}
+
+/* pseudo-class :hover du l'élément a class 'drop-content' de l'élément d'identifiant 'menu' */
+#menu .drop-content a:hover{
+    background-color: #bebcba;             /* couleur de l'arrière plan */
+}
+
+h2{
+    background-color: #ca8e71;
+    font-size: 35px;
+}
+
+.forme-quizz{
+    background-color: #f3dec3;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.question{
+    font-size: 30px;
+}
+
+.input_avis{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    background-color: #c06f42;
+    font-family: 'Akaya Telivigala', cursive;
+}

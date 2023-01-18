@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE VIETNAM SYSTEM "Projet_HO_HO.dtd">
+
+<VIETNAM Position="Asie">
+    <Langue Officiel="Vietnamien"/>
+    <CaractéristiquesGéographiques>
+        <SuperficieTotal S="331.212 km&#94;">
+            <Frontières L="4550 km"> Le Vietnam est bordé par la Chine au nord, la Laos à l&apos;ouest, la Cambodge à l&apos;ouest, à l&apos;est mer de Bien Dong </Frontières>
+            <Maritime>Le Vietnam a un littoral s&apos;étendant du nord au sud avec une longueur de 3260 km, créant un grand avantage pour l&apos;industrie de la pêche et de l&apos;aquaculture.</Maritime>
+        </SuperficieTotal>
+        <Climat Type="tropical" >
+            <Description>
+                Le climat vietnamien est de type tropical au sud et subtropical au nord, avec des moussons ; l&apos;humidité descend rarement en dessous de 85 % dans les plaines.
+                Dans les régions montagneuses (Dalat, Sapa), le climat est plus sec et les hivers peuvent être rigoureux.
+                Il existe deux saisons : la saison sèche (de novembre à avril dans le sud du pays et de février à août au centre) et la saison humide (de mai à octobre au sud et de septembre à janvier au centre).
+            </Description>
+        </Climat>
+    </CaractéristiquesGéographiques>
+    <CaractéristiquesGéographiques>
+        <Régions>
+            <Nord>
+                Hanoi est la capitale. Son paysage urbain est marqué par la présence de nombreux lacs, de grandes artères arborées, d&apos;une vieille ville marchande parsemée de nombreux édifices religieux, de l&apos;ancien quartier français, ainsi qu&apos;une périphérie en pleine expansion.
+                La cité impériale de Thang Long, située au cœur de l&apos;ancienne citadelle est classée au patrimoine mondial de l&apos;UNESCO.
+            </Nord>
+            <Centre>
+                Hué est l&apos;ancienne capitable.
+                Hué est aujourd&apos;hui la capitale de la province de Thừa Thiên et vit essentiellement de la pêche et du tourisme.
+                Le fait qu&apos;elle a été capitale impériale du Viêt Nam (appelé à l&apos;époque par les occidentaux empire d&apos;Annam),donne un caractère particulier à Hué à laquelle la culture aristocratique des mandarins, la finesse de la poésie de ses lettrés et l&apos;agilité intellectuelle de ses habitants confèrent tout son charme
+            </Centre>
+            <Sud>
+                Saïgon est la plus grande ville du Viêt Nam et son poumon économique, devant la capitale Hanoï.
+                Pendant la guerre du Viêt Nam, Saïgon était le siège du commandement américain ; son activité économique fut portée par la présence de centaines de milliers de soldats américains et son port était embouteillé par l&apos;arrivée d&apos;énormes importations de matériel.
+            </Sud>
+        </Régions>
+    </CaractéristiquesGéographiques>
+    <Population>
+        La population du Vietnam est environ 98 millions au février 2021 selon les dernières données des Nations Unies.
+        Elle représente actuellement 1,25% de la population mondiale.
+        Le Vietnam est classé 15e au monde dans le classement de la population des pays et territoires.
+        La densité de population du Vietnam est de 316 habitants /km&#94;.
+        Dont 37,34% de la population vit en milieu urbain.
+        L&apos;âge médian au Vietnam est de 32,9 ans.
+    </Population>
+    <Economie GDP="3521 USD">
+        <!-- Les grands secteurs économiques-->
+        <Tourisme>
+            Le Vietnam est une destination voyage gagnant en popularité ces dernières années, avec un total de 15,5 millions de touristes étrangers qui ont visité ce fameux pays asiatique en 2019.
+            Cela na rien d&apos;étonnant, avec ses 331 690 km&#94; en superficie, regorgeant de lieux magnifiques qui vous transporteront dans un monde de rêves.
+            Que ce soit par le biais de ses rizières, de ses temples ou de ses plages, ses paysages sont à couper le souffle, en plus de ses villes mélangeant l&apos;architecture actuelle et du passé.
+            Le taux de croissance annuel atteint généralement 2 chiffres, en particulier la période 2015-2019 atteint 22,7% par an - classé parmi les plus élevés au monde par l&apos;Organisation mondiale du tourisme.
+        </Tourisme>
+        <ExportationDeRiz>
+            Selon les chiffres communiqués par le ministère vietnamien de l&apos;Agriculture et du Développement rural, le Vietnam a exporté 4,5 millions de tonnes de riz au cours des huit premiers mois de l&apos;année pour 2,2 milliards de dollars, soit une baisse de 1,7% en termes de quantité, mais une hausse de 10,4% en termes de valeur par rapport à la même période de 2019.
+            À ce jour, une tonne de riz vietnamien se vend environ 490 dollars, soit une hausse de 12,5% en glissement annuel et le montant le plus élevé depuis 2011.
+            Bien que la part du secteur agricole dans le GDP du pays ait diminué ces dernières années, sa contribution à la croissance reste stable à 16-18%.
+            Le secteur joue toujours un rôle très important lorsqu&apos;il crée plus de 40% de l&apos;emploi total pour l&apos;ensemble du pays.
+        </ExportationDeRiz>
+    </Economie>
+    <Culture>
+        <Réligions>
+            Au Vietnamp, la plupart des Vietnamiens suivent le Bouddhism. En outre, on a aussi les Catholiques et les gens non-réligion.
+        </Réligions>
+        <Fêtes>
+            <fête jour="1" mois="1" calendrier="lunaire">
+                Têt est la fête traditionnelle et fête nationale nationale du Vietnam
+                Cette fête a lieu du premier jour du premier mois du calendrier vietnamien au moins jusqu&apos;au troisième jour.
+                Le Têt tombe généralement en janvier ou février du calendrier lunaire.
+                Les vacances du Têt durent officiellement 3 jours, mais de nombreuses personnes l’étendent à une semaine, voire à 10 jours.
+                Le Têt est célébré partout au Vietnam
+            </fête>
+            <fête jour="8" mois="4" calendrier="lunaire">
+                L'anniversaire du Bouddha est une fête traditionnelle du Vietnam.
+                Ce festival tombe souvent le jour de la pleine lune d&apos;avril dans le calendrier lunaire.
+                Les gens célèbrent ce festival bouddhiste au Vietnam dans les temples, les pagodes et les lieux de culte.
+            </fête>
+            <fête jour="1" mois="6">
+                On célèbre la journée de l&apos;enfance au Vietnam.
+                Cette journée est préparée en amont.
+                Festivals avec activités diverses pour enfants et adolescents, programmes télévisés spéciaux.
+            </fête>
+            <fête jour="2" mois="9">
+                Fête de l&apos;indépendance du Vietnam (Fête nationale du Vietnam) est la fête publique nationale du Vietnam.
+                Dans l&apos;histoire, c&apos;est le jour où le président Ho Chi Minh a lu la Déclaration d&apos;indépendance du Vietnam.
+                De nos jours, ce n&apos;est pas seulement le jour pour se souvenir du moment de fierté de la nation, c&apos;est aussi une fête nationale au Vietnam où les travailleurs ont une pause d&apos;une journée de travail pour se reposer et passer du temps avec leurs familles.
+            </fête>
+            <fête jour="15" mois="8" calendrier="lunaire">
+                Fête de la mi-automne est la fête traditionnelle du Vietnam.
+                Cet événement au Vietnam a lieu vers la mi-août entre le quatorzième et le quinzième jour du calendrier lunaire.
+                Au jour de la mi-automne, les gens font le festin avec des gâteaux en forme de lune, des lanternes, des fleurs et des danses jubilantes.
+                Il y a beaucoup de compétitions d&apos;organiser le fête et de faire des gâteaux pour les femmes.
+                Les enfants seraient également en concurrence pour montrer leurs lanternes et leur traitement de la lanterne.
+                De nombreuses familles organisent le festin pour les enfants.
+                Ces derniers  masqués portant des lanternes et des jouets font le tour du &quot;Mam co trung thu&quot; (table des victuailles), placé au milieu de la cours de la maison.
+            </fête>
+            <fête jour="20" mois="10">
+                la Journée des femmes vietnamiennes est une fête importante pour la femme au Vietnam.
+                Mise en place le 20 octobre 1930, consécutive à la création le même jour de l&apos;Union des femmes vietnamiennes, cette célébration rappelle chaque année au peuple vietnamien que les femmes se sont rassemblées et battues elles aussi pour l&apos;indépendance du pays.
+                Depuis lors, elles n&apos;ont jamais cessé de faire valoir leurs droits, au même titre que ceux de la gent masculine.
+                En ce jour spécial, ces demoiselles reçoivent des cadeaux, des fleurs et les félicitations de leur entourage.
+            </fête>
+            <fête jour="20" mois="11">
+                Aujourd&apos;hui, la République Socialiste du Vietnam met à l&apos;honneur ses professeurs et enseignants.
+                Chaque année, le 20 novembre marque en effet la Fête des enseignants qui composent, au sein de la société, un corps professionnel particulièrement respecté.
+                Chaque année, ce jour est l&apos;occasion pour les élèves de rendre hommage à leurs professeurs par le biais de chansons, d&apos;activités ludiques et culturelles et de cadeaux (nourriture, fleurs), mais également de faire leurs doléances conjointement avec leurs parents, les professeurs et les autorités.
+                Le but est bien évidemment de réaliser un bilan du système éducatif national et d&apos;en tirer les conclusions adéquates.
+            </fête>
+        </Fêtes>
+        <Gastronomies>
+            La cuisine vietnamienne reflète la diversité culturelle et ethnique du pays.
+            À ce titre on peut distinguer 3 régions:Cuisine du Nord, du Centre et du Sud du pays.
+            D&apos;autre part, il y a 54 ethnies, chaque ethnie possède ses plats typiques. Pour les amoureux de cuisine, le Vietnam est un vrai paradis culinaire où vous pouvez goûter beaucoup de nouvelles saveurs que vous pourrez faire varier tout au long de votre voyage.
+        </Gastronomies>
+    </Culture>
+    <Image source="https://images.app.goo.gl/NLLYQCjoxwfgkJBZ9"/>
+    <Image source="https://images.app.goo.gl/i9Aum25Qm7wyeHrJ9"/>
+    <Image source="https://images.app.goo.gl/DWo7gYxNZS6zYZZK8"/>
+    <Image source="https://images.app.goo.gl/rKiRDeVeQhNEqTpu5"/>
+    <Image source="https://images.app.goo.gl/ywYiaPTUvziXJV2k6"/>
+    <Image source="https://images.app.goo.gl/6sy6xqiLSRwQEkp36"/>
+    <!--Division le travail: On a discuté et a trouvé les informations ensensemle pour le contenu. Puis on a divisé par deux:
+                             Le fiche DTD a été écrit par HO Ngoc Kim Ngan.
+                             Le fiche XML a été écrit par HO Nguyen Quynh Nhu.-->
+
+</VIETNAM>

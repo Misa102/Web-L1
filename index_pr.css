@@ -1,0 +1,88 @@
+/* choisir l'élément 'html' */
+html{
+    background-color: #fafae9;                      /* couleur de l'arrière plan */
+    font-family: 'Akaya Telivigala', cursive;       /* police de la texte */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    background-color: #730404;           /* couleur de la boître */
+}
+
+/* choisir l'élément h1 */
+h1{
+    color: #ffff00;                       /* ecrit en jaune */
+}
+
+/* choisir l'élément body */
+body {
+    margin: 1px;                          /* la taille de la marge extérieure */
+    font-family: Arial sans-serif;        /* police de la texte */
+}
+
+
+/*Menu*/
+
+/* choisir l'lélément d'idantifiant 'menu' */
+#menu {
+    background-color: #d99c73;
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    color: #d99c73;                        /* couleur du texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color:saddlebrown;
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: #fdd3b7;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content {
+    background-color: #f3ebd3;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content a:hover{
+    background-color: #bebcba;
+}
+
+/* de la même manière au dessus */
+h2{
+    color:#5c412e;
+    font-size: 30px;
+}
+
+/* de la même manière au dessus */
+.boxsommaire ol li {
+    color: red;
+    font-size: 30px;
+}
+
+/* de la même manière au dessus */
+.intro_1{
+    background-color: #e7c0bf;
+}
+
+/* de la même manière au dessus */
+.intro_2\.1{
+    background-color: #c7c7c8;
+}
+
+/* de la même manière au dessus */
+#footer {
+    background: #F1F1F1;
+    border-top: 1px solid #D4D4D4;
+}
+
+/* de la même manière au dessus */
+#footer h4 {
+    color: darksalmon;
+    font-size: 16pt;
+}

@@ -1,0 +1,35 @@
+/* choisir html */
+html{
+    background-image: url("http://vietbf.com/forum/attachment.php?attachmentid=750757&stc=1&d=1427051413");
+    /* l'arrière plan est cette image */
+    background-size: cover;                /* l'arrière plan est couvert l'écran */
+    background-repeat: no-repeat;          /* l'arrière plan n'est pas repété */
+    font-family: 'Akaya Telivigala', cursive;   /* police de la texte */
+}
+
+/* choisir l'lélement a class 'boxtitle' */
+.boxtitle {
+    background-color: #730404;           /* couleur de l'arrière plan de la boître */
+    font-size: 60px;                     /* taille de la texte dans boître */
+}
+
+/* choisir h1 */
+h1 {
+    text-shadow: #db442a 2px 3px 2px;               /* l'ombre de la texte */
+    color: yellow;                                  /* écrit en jaune */
+    text-decoration-style: wavy;                    /* texte ondulée */
+}
+
+
+/* choisir l'élément d'identifiant 'all' */
+#all{
+    font-size: 40px;                         /* taille de la texte */
+}
+
+/* de la même manière au dessus */
+.grandpartir{
+    color: #953B09;                          /* couleur de la texte */
+}
+
+
+

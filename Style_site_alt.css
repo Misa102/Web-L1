@@ -1,0 +1,21 @@
+/* choisir html */
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   /* police de la texte */
+    background-color: #faf7f7;                                     /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    background-color: silver;                         /* couleur de l'arrière plan */
+}
+
+/*choisir h1 */
+h1 {
+    color: #474645;               /* écrit en #474645 */
+}
+
+/*choisir div */
+#all{
+    font-size: 60px;               /* taille de la texte */
+}
+

@@ -1,0 +1,96 @@
+/* choisir l'élément html */
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    /* définir la police */
+    background-color: #faf7f7;                                      /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    background-color: silver;
+}
+
+/* choisir h1 */
+h1 {
+    color: #4a4948;                            /* écrit en #83807e */
+}
+
+/*Menu*/
+
+/* choisir l'élément d'identifiant 'menu' */
+#menu {
+    background-color: #adafb6;
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    background-color: #adafb6;              /* couleur de l'arrière plan */
+    color: black;                           /* couleur du texte */
+    font-size: large;                       /* taille de la texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color: black;;                         /* écrit en noir */
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: white;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content{
+    background-color: white;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content a:hover{
+    background-color: white;;
+}
+
+/* choisir l'élément h2 de l'élément a class 'photo-horizontal */
+.photo-horizontal > h2, .photo-vertical > h2{
+    font-size: 40px;                               /* taille de la texte */
+}
+
+/* choisir l'élément a class 'boxsommaire */
+.boxsommaire{
+    color: black;
+    font-size: 35px;
+}
+
+/* de la même manière au dessus */
+.intro_1{
+    background-color: #dbd7d6;
+}
+
+/* de la même manière au dessus */
+.intro_2\.1{
+    background-color: #9499a7;
+}
+
+/* choisir l'élément d'identifiant 'intro' */
+#intro{
+    font-size: 30px;
+}
+
+/* choisir l'élément h2 de l'élément a class 'intro_1', ou 'intro_2.1', ou 'intro_2.2' */
+.intro_1 h2, .intro_2\.1 h2, .intro_2\.2 h2 {
+    font-size: 25px;
+}
+
+/* choisir l'élément li de l'élément ul de l'élément a class 'intro_1', ou 'intro_2.1', ou 'intro_2.2' */
+.intro_1 p, .intro_2\.1 p, .intro_2\.2 ul li {
+    font-size: 20px;
+}
+
+/* choisir l'élément d'identifiant 'footer' */
+#footer {
+    background: white;
+    border-top: white;
+}
+
+/* choisir l'élément h4 de l'élément d'identifiant 'footer' */
+#footer h4 {
+    font-size: 26pt;
+}

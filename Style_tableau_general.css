@@ -1,0 +1,172 @@
+/* choisir html */
+html{
+    height: 100%;                     /* taille longeur */
+    margin: 0;                        /* marge extérieure */
+}
+
+/* choisir l'élément a class 'box' */
+.box {
+    display: flex;                            /* utiliser le flex box */
+    align-items: center;                      /* écrit au centre */
+    justify-content: center;                  /*                 */
+    font-weight: bold;                        /* ecrit en gras */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    width: 100%;                              /* la largeur */
+    height: 15vh;                             /* la longeur */
+    border:solid #333 ;                       /* la bordue en solide et en couleur #333 */
+    margin-top: 25px;                         /* la taille de la marge extérieure au dessus */
+    font-size: 70px;                          /* la taille du texte */
+}
+
+/* choisir h1 */
+h1{
+    text-align: center;                       /* écrit au centre de la boître */
+    font-weight: bold;                        /* écrit en gas */
+}
+
+/*Menu*/
+
+/* choisir l'élément d'identifiant 'drapeau' */
+
+#drapeau{
+    border: none;                     /* effacer la bordue */
+    width: 80px;                      /* la largeur */
+    height: auto;                     /* le longeur */
+    margin: auto 16px;                /*  la taille de la marge extérieure */
+}
+
+/* choisir l'élément d'identifiant 'menu' */
+#menu{
+    display: flex;                    /* utiliser le flexbox */
+    justify-content: space-between;   /* l'espace entre des flex items */
+}
+
+/* choisir l'élément ul des l'élément d'identifiant 'menu' */
+#menu ul{
+    list-style-type: none;             /* effacer des style de la liste */
+    overflow: hidden;                  /* le contenu renversé est coupé et ce contenu est masqué */
+    height: 50px;                      /* la longeur */
+}
+
+/* choisir l'élément li des l'élément d'identifiant 'menu' */
+#menu li{
+    font-size: 20px;                   /* taille du texte est 20px */
+    float: left;                       /* déplacer vers à la gauche */
+    font-weight: bold;                 /* écrit en gras */
+    padding-left: 0;                   /* effacer le marge intérieure par défaut */
+    margin: auto 20px;                 /* la taille de la marge extérieure */
+}
+
+/* choisir les élément du li de l'élément d'idedntifiant 'menu' et l'élément a class 'dropbtn' */
+
+#menu li a, .dropbtn{
+    display: inline-block;               /* de la même manière */
+    text-align: center;                  /* écrit au centre */
+    padding: 14px 16px;                  /* taille de la marge intérieure */
+    text-decoration: none;               /* effacer les souligners */
+}
+
+/* de la même manière */
+#menu li.dropdown{
+    display: inline-block;
+}
+
+/* de la même manière */
+#menu .drop-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;                  /* la largeur minimum */
+    box-shadow:  8px 16px #9f3a38;     /* l'ombres de la boître */
+    z-index: 1;                        /* définir d'un élément positionné */
+}
+
+/* de la même manière */
+#menu .drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu .dropdown:hover  .drop-content{
+    display: block;
+}
+
+/* choisir tableau */
+table{
+    border: 4px solid #333;           /* bordue 4px en solide et en couleur #333 */
+    margin-top: 30px;                 /* marge extérieure au dessus */
+    margin-bottom: 20px;              /* marge extérieure au dessous */
+    margin-left: 150px;
+    width:80%;
+}
+
+/* choisir l'élément th et td */
+th,td{
+    border: 2px solid #333;           /* bordue en 2px solide et en couleur #333 */
+    text-align: center;
+    vertical-align: center;           /* aligné verticalement */
+    padding:10px;                     /* taille de la marge intérieure */
+}
+
+/*choisir th */
+th {
+    font-weight: bold;                /* écrit en gras */
+}
+
+/* choisir l'élément a class 'fi' */
+.fi{
+    font-style: italic;               /* écrit en italique */
+    font-weight: bold;
+}
+
+/* de la même manière */
+.numero{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* choisir l'élément ul de l'élément d'identifiant 'menu' */
+/* de la même manière */
+#menu_2 ul{
+    list-style-type: none;                     /* effacer des style de la liste */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;                          /* le contenu renversé est coupé et ce contenu est masqué */
+    background-color: silver;
+    border: 1px solid #333;
+}
+
+/* le contenu renversé est coupé et ce contenu est masqué */
+#menu_2 li{
+    display: inline;                           /* utiliser le flex box */
+    float: right;
+    border-left: 2px solid #333;
+    margin-left: 0;
+}
+
+/* choisir le dernière enfant de l'élément li de l'élément d'identifiant 'menu' */
+#menu_2 li:last-child{
+    border-left: none;
+}
+
+/* le contenu renversé est coupé et ce contenu est masqué */
+#menu_2 li a{
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    background-color: #bebab8;
+}
+
+/* pseudo-class :hover du l'élément li des l'élément d'identifiant 'menu' */
+#menu_2 li a:hover{
+    color: white;
+}

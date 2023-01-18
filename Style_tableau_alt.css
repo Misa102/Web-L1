@@ -1,0 +1,64 @@
+/* choisir l'élément html */
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;    /* définir la police */
+    background-color: #faf7f7;                                      /* couleur de l'arrière plan */
+}
+
+/* choisir l'élément a class 'boxtitle' */
+.boxtitle{
+    background-color: silver;
+}
+
+/*choisir h1 */
+h1 {
+    color: #3c3c3c;                /* écrit en #83807e */
+}
+
+/*Menu*/
+
+/* choisir l'élément d'identifiant 'menu' */
+#menu {
+    background-color: #adafb6;
+}
+
+/* choisir l'lélément ul des éléments d'idantifiant 'menu' */
+#menu ul{
+    background-color: #adafb6;              /* couleur de l'arrière plan */
+    color: black;                           /* couleur du texte */
+    font-size: large;                       /* taille de la texte */
+}
+
+/* choisir des éléments a des éléments li de l'élément d'idantifiant 'menu' */
+#menu li a, .dropbtn{
+    color: black;;
+}
+
+/* pseudo-class :hover du l'élément a class 'dropdown' des l'élément d'identifiant 'menu' et l'élément a class 'drop-content' */
+#menu a:hover, .dropdown:hover .dropbtn{
+    background-color: white;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content{
+    background-color: white;
+}
+
+/* de la même manière au dessus */
+#menu .drop-content a:hover{
+    background-color: white;;
+}
+
+/* choisir th */
+th{
+    font-size: 50px;
+}
+
+/* de la même manière au dessus */
+.fi{
+    font-size: 40px;
+}
+
+/* de la même manière au dessus */
+.infor{
+    font-size: 30px;
+}
